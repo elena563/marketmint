@@ -28,7 +28,7 @@ function App() {
       <div className='flex'>
         <div className='cont1'>
           <header className="App-header">
-            <img src='/images/logo.png'/>
+            <img src='/images/logo.png' alt='marketmint logo'/>
           </header>
           <div>
             <span className='active'><i className="fa-solid fa-border-all"></i> <span className='word'>Dashboard</span></span>

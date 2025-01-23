@@ -33,10 +33,6 @@ const PieChart = () => {
                     responsive: true,
                     maintainAspectRatio: true,
                     plugins: {
-                        datalabels: {
-                            formatter: (value) => `${value}%`,
-                            color: '#fff',
-                        },
                         legend:{
                             display: false,
                         },
@@ -50,6 +46,7 @@ const PieChart = () => {
                             },
                         },
                         datalabels: {
+                            formatter: (value) => `${value}%`,
                             color: '#fff',
                             font: { size: 14, weight: 'bold' },
                             formatter: (value, context) => {
