@@ -46,7 +46,6 @@ const PieChart = () => {
                             },
                         },
                         datalabels: {
-                            formatter: (value) => `${value}%`,
                             color: '#fff',
                             font: { size: 14, weight: 'bold' },
                             formatter: (value, context) => {
