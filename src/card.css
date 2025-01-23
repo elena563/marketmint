@@ -1,0 +1,64 @@
+.change{
+    margin: 0;
+    padding: 7px 13px;
+    border-radius: 20px;
+    display: inline;
+}
+h2{
+    margin-top: 0;
+}
+.name{
+    margin-bottom: 0;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.symbol{
+    opacity: 0.7;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.crypto-card{
+    display: flex;
+}
+.crypto-card div{
+    width: 50%;
+    
+}
+.flexcard{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    max-width: 350px;
+}
+.wbtn{
+    background-color: transparent;
+    margin-top: 15px;
+    border: solid 1px #bab8b8;
+    padding: 7px 13px;
+    border-radius: 20px;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+.wbtn:hover{
+    border: solid 1px transparent;
+    background-color: #e8e6e6;
+}
+.gbtn{
+    background-color: #00F4AA;
+    border: none;
+    padding: 7px 13px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 100%;
+    display: block;
+    color: white;
+}
+.gbtn:hover{
+    background-color: #00db99;
+}
+.p2{
+    margin: 0;
+}

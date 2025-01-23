@@ -1,0 +1,30 @@
+table {
+    width: 100%;
+    max-width: 340px;
+    margin: 5px; 
+    border-collapse: collapse;
+    text-align: left; 
+    font-size: 12px;
+}
+
+table th {
+    background-color: #ffffff;
+    padding: 10px 5px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 10px 5px;
+}
+
+.row-light {
+    background-color: #ffffff; /* Colore chiaro */
+}
+
+.row-dark {
+    background-color: #f4f4f4; /* Colore scuro */
+}
+
+table th, table td {
+    border: none; /* Rimuove le linee della tabella */
+}
